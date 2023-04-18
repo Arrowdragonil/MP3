@@ -1,15 +1,13 @@
 // audio files
 import House from "./I-Really-Want-to-Stay-at-Your-House-Hallie-Coggins-(Cover1).mp3";
-import world from "./We_Are_The_World.mp3";
-import top from "./dbang-world.mp3";
-import cinematic from "./cinematic-time-lapse-115672.mp3";
-import forest from "./forest-lullaby-110624.mp3";
-import podcast from "./the-podcast-intro-111863.mp3";
+import Rebirth from "./🌵Rebirth (ft. mifye) - 2d_end Artwork by n2o_cat🌵.mp3"
+import hollow from "./FFVII REMAKE_ Hollow.mp3";
+
 
 // audio thumbnails
-import lexin from "./lexin.jpeg";
-import dbanj from "./dbanj.png";
-import jackson from "./jackson.jpeg";
+
+import Cody from "./Cody.jpg";
+import Rebirth1 from "./Rebirth1.jpg";
 import grimes from "./grimes.jpg";
 
 export const tracks = [
@@ -21,31 +19,16 @@ export const tracks = [
   },
 
   {
-    title: "Michael Jackson – We Are The World",
-    src: world,
-    author: "Michael Jackson",
-    thumbnail: jackson,
+    title: "🌵Rebirth (ft. mifye) - 2d_end Artwork by n2o_cat🌵",
+    src: Rebirth,
+    author: "Sergio",
+    thumbnail: Rebirth1,
   },
   {
-    title: "D’banj -Top Of The World",
-    src: top,
-    author: "Dbanj",
-    thumbnail: dbanj,
+    title: "FFVII REMAKE_ Hollow",
+    src: hollow,
+    author: "Cody Christian",
+    thumbnail: Cody,
   },
-  {
-    title: "Cinematic Time Lapse",
-    src: cinematic,
-    author: "Lexin Music",
-    thumbnail: lexin,
-  },
-  {
-    title: "Forest Lullaby",
-    src: forest,
-    author: "Lesfm",
-  },
-  {
-    title: "The Podcast Intro",
-    src: podcast,
-    author: "Music Unlimited",
-  },
+  
 ];
