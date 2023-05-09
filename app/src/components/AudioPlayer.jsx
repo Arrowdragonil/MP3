@@ -5,7 +5,7 @@ import { tracks } from '../data/tracks';
 import DisplayTrack from './DisplayTrack';
 import Controls from './Controls';
 import ProgressBar from './ProgressBar';
-import TopBar from './TopBar';
+
 
 const AudioPlayer = () => {
   
@@ -32,7 +32,7 @@ const AudioPlayer = () => {
 
   return (
     <>
-      <TopBar />
+      
       <div className="audio-player">
         <div className="inner">
           <DisplayTrack
